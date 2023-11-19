@@ -10,10 +10,10 @@ export const Recipes = () => {
         data-aos="fade-up"
         className="decor flex items-center justify-center mb-20"
       >
-        <p className="mix-blend-normal text-[100px] font-black tracking-[0.2em] text-c-30 sm:text-[70px] sm:tracking-[0.1em] mos:text-[60px] mo:text-[50px]">
+        <p className="mix-blend-normal text-center text-[100px] font-black tracking-[0.2em] text-c-30 sm:text-[70px] sm:tracking-[0.1em] mos:text-[60px] mo:text-[50px]">
           RECIPES
         </p>
-        <p className="absolute text-[30px] text-c-D9 tracking-[0.5em] sm:text-[25px] sm:tracking-[0.2em] mos:text-[18px] mos:tracking-[0.4em] mo:text-[14px]">
+        <p className="absolute text-[30px] text-center text-c-D9 tracking-[0.5em] sm:text-[25px] sm:tracking-[0.2em] mos:text-[18px] mos:tracking-[0.4em] mo:text-[14px]">
           Recipes From Our Chefs
         </p>
       </div>

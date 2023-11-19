@@ -11,7 +11,7 @@ import IconPrev from "../assets/image/icon-prev.svg";
 
 export const About = () => {
   return (
-    <section className="mt-[-220px] sm:mt-0 mos:mt-[-100px] relative z-10">
+    <section className="mt-[-100px] relative z-10">
       <div className="container">
         <div
           data-aos="fade-down"
@@ -20,10 +20,10 @@ export const About = () => {
           className="max-w-[1050px] bg-c-25 mt-28 m-auto min-h-[736px] p-[65px] mos:px-[20px]"
         >
           <div className="flex items-center justify-center mb-8">
-            <p className="mix-blend-normal text-[100px] font-black tracking-[0.2em] text-c-30 sm:text-[80px] mos:text-[70px] mo:text-[60px]">
+            <p className="mix-blend-normal text-center text-[100px] font-black tracking-[0.2em] text-c-30 sm:text-[70px] sm:tracking-[0.1em] mos:text-[60px] mo:text-[50px]">
               About
             </p>
-            <p className="absolute text-[30px] text-c-D9 tracking-[0.3em] sm:text-[23px] mos:text-[20px] mos:tracking-[0.2em] mo:text-[16px] mo:tracking-[0.1em]">
+            <p className="absolute text-[30px] text-center text-c-D9 tracking-[0.5em] sm:text-[22px] sm:tracking-[0.2em] mos:text-[18px] mos:tracking-[0.4em] mo:text-[14px]">
               The Basics Of Healthy Food
             </p>
           </div>

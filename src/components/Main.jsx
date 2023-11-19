@@ -3,7 +3,7 @@ import { footers } from "../constants/constants";
 
 export const Main = () => {
   return (
-    <main id="home" className="relative h-[1080px]">
+    <main id="home" className="main relative min-h-[1080px]">
       <div className="container">
         <div className="absolute left-0 top-0 w-[100%] h-[100%]">
           <img
@@ -41,7 +41,7 @@ export const Main = () => {
               Order Now
             </button>
           </div>
-          <div className="flex justify-between relative z-10 sm:flex-col">
+          <div className="flex justify-between relative z-10 sm:flex-col mb-64">
             {footers &&
               footers.map((item, i) => (
                 <div

@@ -63,7 +63,7 @@ export const Header = () => {
           </ul>
         </nav>
         <nav className={`${isClose ? "active-block" : "translateO z-30"} `}>
-          <ul className="mt-[105px] ml-[8px]">
+          <ul className="mt-[105px] ml-4">
             {menu &&
               menu.map((item, i) => (
                 <li className="mb-4 last:mb-0" key={i}>

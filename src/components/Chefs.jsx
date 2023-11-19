@@ -7,14 +7,14 @@ export const Chefs = () => {
         data-aos="fade-up"
         className="decor flex items-center justify-center mb-20"
       >
-        <p className="mix-blend-normal text-[100px] font-black tracking-[0.2em] text-c-30 mos:text-[70px] mo:text-[55px]">
+        <p className="mix-blend-normal text-center text-[100px] font-black tracking-[0.2em] text-c-30 sm:text-[70px] sm:tracking-[0.1em] mos:text-[60px] mo:text-[50px]">
           CHEFS
         </p>
-        <p className="absolute text-[30px] text-c-D9 tracking-[0.5em] sm:text-[22px] mos:text-[20px] mo:text-[16px]">
+        <p className="absolute text-[30px] text-center text-c-D9 tracking-[0.5em] sm:text-[25px] sm:tracking-[0.2em] mos:text-[18px] mos:tracking-[0.4em] mo:text-[14px]">
           This month is chefs
         </p>
       </div>
-      <div className="flex justify-between sm:flex-wrap sm:justify-around">
+      <div className="flex justify-between gap-4 sm:flex-wrap sm:justify-around">
         {chefs &&
           chefs.map((item, i) => (
             <div
@@ -39,11 +39,11 @@ export const Chefs = () => {
                   src={item.img}
                   alt="I can't find the image"
                 />
-                <div className="flex lg:justify-between">
+                <div className="flex justify-between">
                   {item?.images?.map((img, i) => (
                     <img
                       key={i}
-                      className="mr-[30px] rounded-[3px]"
+                      className="rounded-[3px]"
                       src={img}
                       alt="I can't find the image"
                     />

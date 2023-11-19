@@ -11,10 +11,10 @@ export const Social = () => {
         data-aos="fade-up"
         className="decor flex items-center justify-center mb-20"
       >
-        <p className="mix-blend-normal text-[100px] font-black tracking-[0.2em] text-c-30 mos:text-[70px] mo:text-[60px]">
+        <p className="mix-blend-normal text-center text-[100px] font-black tracking-[0.2em] text-c-30 sm:text-[70px] sm:tracking-[0.1em] mos:text-[60px] mo:text-[50px]">
           SOCIAL
         </p>
-        <p className="absolute text-[30px] text-c-D9 tracking-[0.7em] sm:text-[27px] mos:text-[20px] mo:text-[16px] mo:tracking-[0.9em]">
+        <p className="absolute text-[30px] text-center text-c-D9 tracking-[0.5em] sm:text-[25px] sm:tracking-[0.2em] mos:text-[18px] mos:tracking-[0.4em] mo:text-[14px]">
           We in Social
         </p>
       </div>
