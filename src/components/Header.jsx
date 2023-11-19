@@ -54,7 +54,7 @@ export const Header = () => {
                     duration={500}
                     className={`${
                       isActive === i ? "is-active" : ""
-                    } text-sm cursor-pointer font-bold`}
+                    } text-base cursor-pointer font-bold`}
                   >
                     {item.name}
                   </Link>
@@ -66,7 +66,7 @@ export const Header = () => {
           <ul className="mt-[105px] ml-[8px]">
             {menu &&
               menu.map((item, i) => (
-                <li key={i}>
+                <li className="mb-4 last:mb-0" key={i}>
                   <Link
                     onClick={() => {
                       setIsClose(false), handleClick(i);
@@ -78,7 +78,7 @@ export const Header = () => {
                     duration={500}
                     className={`${
                       isActive === i ? "is-active" : ""
-                    } text-sm cursor-pointer font-bold`}
+                    } text-xl cursor-pointer font-bold`}
                   >
                     {item.name}
                   </Link>

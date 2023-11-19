@@ -10,7 +10,7 @@ export const Chefs = () => {
         <p className="mix-blend-normal text-[100px] font-black tracking-[0.2em] text-c-30 mos:text-[70px] mo:text-[55px]">
           CHEFS
         </p>
-        <p className="absolute text-[30px] text-c-D9 tracking-[0.5em] sm:text-[27px] mos:text-[20px] mo:text-[16px]">
+        <p className="absolute text-[30px] text-c-D9 tracking-[0.5em] sm:text-[22px] mos:text-[20px] mo:text-[16px]">
           This month is chefs
         </p>
       </div>
