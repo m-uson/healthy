@@ -3,14 +3,16 @@ import { footers } from "../constants/constants";
 
 export const Main = () => {
   return (
-    <main id="home" className="main relative min-h-[1080px]">
+    <main id="home" className="main relative">
       <div className="container">
-        <div className="absolute left-0 top-0 w-[100%] h-[100%]">
-          <img
-            className="w-[100%] h-[100%] object-cover"
-            src={Image}
-            alt="not image"
-          />
+        <div className="absolute left-0 top-0 w-full min-h-full md:h-full">
+          <div className="w-full max-w-full h-full">
+            <img
+              className="w-full h-[100%] object-cover"
+              src={Image}
+              alt="not image"
+            />
+          </div>
         </div>
         <div className="pt-64 relative z-20">
           <div className="flex flex-col items-center mb-[120px]">

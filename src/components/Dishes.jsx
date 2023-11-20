@@ -2,10 +2,10 @@ import { dishes } from "../constants/constants";
 
 export const Dishes = () => {
   return (
-    <section id="dishes" className="scroll container py-[70px]">
+    <section id="dishes" className="w-full container py-[70px]">
       <div
         data-aos="fade-up"
-        className="decor flex items-center justify-center mb-20"
+        className="w-full decor flex items-center justify-center mb-20"
       >
         <p className="mix-blend-normal text-center text-[100px] font-black tracking-[0.2em] text-c-30 sm:text-[70px] sm:tracking-[0.1em] mos:text-[60px] mo:text-[50px]">
           DISHES
@@ -14,16 +14,20 @@ export const Dishes = () => {
           Dish Of The Day
         </p>
       </div>
-      <div className="flex justify-between flex-wrap gap-2 lg:justify-around">
+      <div className="grid grid-cols-3 justify-items-center lg:grid-cols-2 md:grid-cols-1 gap-2">
         {dishes &&
           dishes.map(({ title, des, subDes, img, icons }, i) => (
             <div
               data-aos="fade-up"
-              className="w-[330px] mb-10 mo:w-[310px]"
+              className="w-full max-w-[330px] mb-10 mo:max-w-[310px]"
               key={i}
             >
-              <img src={img} alt={`Image for ${title}`} />
-              <div className="w-[330px] p-[30px] bg-c-25 rounded-b-[6px] mo:w-[310px]">
+              <img
+                className="w-full object-cover"
+                src={img}
+                alt={`Image for ${title}`}
+              />
+              <div className="w-full max-w-[330px] p-[30px] bg-c-25 rounded-b-[6px] mo:max-w-[310px]">
                 <h2 className="text-[32px] text-c-D9">{title}</h2>
                 <p className="text-[12px] text-c-A4 mb-5">{des}</p>
                 <p className="text-[13px] text-c-85">{subDes}</p>
